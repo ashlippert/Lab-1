@@ -84,7 +84,7 @@
 | 3          | Brown  | Gray   | Brown  | Gold   | 180                       | 5%        | 189            | 171            | 187                   | 185.8                              |
 | 4          | Gray   | Red    | Red    | Gold   | 8200                      | 5%        | 8610           | 7790           | 8230                  | 8228.8                             |
 
-**Capacitor Values:
+**Capacitor Values:**
 | Capacitor # | Capacitor Type | Expected Capacitance (F) | Tolerance | Max Expected Capacitance (F) | Min Expected Capacitance (F) | Measured Capacitance (F) |
 |-------------|----------------|--------------------------|-----------|------------------------------|-------------------------------|---------------------------|
 | 1           | Electrolytic   | 0.00047                  | 20%       | 0.000564                        | 0.000376                     | 0.00053                  |
@@ -105,6 +105,14 @@
 | 0                              | 7                              | 7                           |
 | 0                              | 12                             | 12                          |
 | 0                              | 3.3/3.5                        | 3.417                       |
+
+**Function Generator Output:**
+|       Method        |  Wave Type  | Frequency (kHz) | Amplitude (V) |
+|---------------------|-------------|-----------------|---------------|
+| Counting Squares    | Sinusoidal  | 2.5             | 20            |
+| Cursors             | Sinusoidal  | 2.267           | 20            |
+| Measurement Feature | Sinusoidal  | 2.202           | 20.20         |
+| DMM                 | Sinusoidal  | 2.2             | 7.16          |
 
 
 
