@@ -14,6 +14,10 @@
 3. 10KΩ Resistor
 
 ## Assembly Methods:
+
+**Objective 1: Use the above-listed lab equipment to measure and verify equipment, component, and
+circuit values**
+
 1. **Resistor Measurement Setup:**
    
    Identified four different resistors and recorded their color codes to determine expected values, then we used a Fluke 87 V DMM to measure the actual resistance by connecting the alligator clips to each resistor's leads.
@@ -38,6 +42,12 @@
    
    Additionally, we adjusted frequency and amplitude of the generated wave and observed changes on both the oscilloscope and DMM and recorded our findings.
 
+**Objective 2: Learn how to use GitHub for collaboration and to post your report**
+
+1. Create a GitHub account and verify email address.
+2. Add lab partners as collaborators for your lab report repository.
+   
+
 ## Test Equipment:
 1. Fluke 87 V DMM
 2. Oscilloscope Tektronix TS2012
@@ -46,6 +56,9 @@
 5. Computer with internet access
    
 ## Test Procedures:
+
+**Objective 1: Use the above-listed lab equipment to measure and verify equipment, component, and
+circuit values**
 
 1. **Resistor Measurement**
 
@@ -98,6 +111,20 @@
   <p><b>Figure 5:</b> Sine wave output generated on oscilloscope from generated function.</p>
 </div>
 
+**Objective 2: Learn how to use GitHub for collaboration and to post your report**
+
+1. Open the tutorial at [GitHub Hello World](https://docs.github.com/en/get-started/quickstart/hello-world)
+2. Create a new repository on GitHub by clicking the "+" icon, naming it "hello-world", and adding a README file. This repository will serve as the folder that holds all your project files.
+3. Make a new branch called "readme-edits" from the main branch so you can work on changes without affecting the main version. This branch is a copy of the main branch at the time you create it.
+4. Edit the README.md file in the "readme-edits" branch and add some information about yourself, then commit the changes with a brief message. Each commit saves your changes along with a message explaining what you did.
+5. Open a pull request to propose merging your changes from "readme-edits" into the main branch. This lets you review your changes and start a discussion about them.
+6. Merge the pull request to combine your changes into the main branch and then delete the "readme-edits" branch if you no longer need it. Merging finalizes the changes so they become part of your main project. The tutorial is now complete.
+7. Create a new public repository named "BAE305-SP25-Lab1" and initialize it with a README.
+8. Navigate to the Wiki tab and create the lab report on the wiki page.
+9. Reference the [Lab Report Example](https://github.com/cjarro-uky/BAE305-Lab-Template/wiki/Lab-Report-Example) to understand the formatting and expectations for the lab report.
+10. Upload our images to the repository, copy their links, and insert them into the file. Center and resize the images as necessary and make sure to add captions.
+12. Complete all necessary sections of the lab report and discussion questions, then ubmit the link to the lab report page on GitHub via Canvas.
+
 ## Test Results:
 | Resistance of DMM Cables (Ohms) |
 |---------------------------------|
@@ -144,6 +171,10 @@
 
 ## Discussion:
 
+   The results demonstrate a good agreement between expected and measured values, with minor discrepancies which could be caused by measurement tolerances or equipment age and calibration. The capacitor measurements exhibited more variation, especially with smaller capacitance values, which is expected due to the DMM’s limitations in measuring low-capacitance components accurately.
+Additionally, variations in the function generator’s output readings suggest that different measurement techniques introduce slight uncertainties.
+
+   The results reinforce the importance of verifying measurements with multiple methods and instruments to identify any inconsistencies and improve measurement accuracy. Understanding instrument tolerances and proper calibration procedures is essential for reliable data collection.
 
 
 ## Conclusion:
