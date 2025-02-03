@@ -65,7 +65,7 @@
 4. **Function Generator Output**
 
    We set the function generator to produce a 2kHz sine wave at maximum amplitude and measured the output using multiple methods. These included:
-      - Counting divisions on the oscilloscope screen
+      - Counting squares on the oscilloscope screen
       - Using the oscilloscope’s moveable cursors
       - Utilizing the oscilloscope’s built-in measurement functions
       - Measuring the signal with the DMM
@@ -99,7 +99,13 @@
 | Red         | Black       | 528                     |
 
 **Power Supply Voltage Verification:**
-| Expected Current from DCPS (A) | Expected Voltage from DCPS (V) | DMM Voltage Measurement (V) | 
+| Expected Current from DCPS (A) | Expected Voltage from DCPS (V) | DMM Voltage Measurement (V) |
+|--------------------------------|--------------------------------|------------------------------------|
+| 0                              | 1.5                            | 1.499                              |
+| 0                              | 7                              | 7                  
+                |
+| 0                              | 12                             | 12                                 |
+| 0                              | 3.3/3.5                        | 3.417              
 
 ## Results:
 
