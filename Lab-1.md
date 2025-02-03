@@ -1,4 +1,4 @@
-# Lab 1: Knowing your instruments
+# Lab 1: Knowing Your Instruments
 
 ## Authors: Ashlyn Lippert and Seth Daniel
 
@@ -29,11 +29,13 @@
    Using the DMM, we measured each voltage output and compared the readings with the DCPS display. Additionally, we measured the fixed 3.3V, 5.0V, and 12V outputs to verify their accuracy.
 
 7. **Function Generator and Oscilloscope Setup:**
+   
    We began by connecting a 10KΩ resistor to the output of the Function Generator (FG), then set the FG to produce a 2kHz sine wave at maximum amplitude. Using the oscilloscope, we observed the waveform and measured amplitude and frequency using four different methods:
      1. Counting squares on the oscilloscope screen.
      2. Using the moveable cursors on the oscilloscope.
      3. Using the measurement features of the oscilloscope.
      4. Measuring with the Fluke DMM.
+   
    Additionally, we adjusted frequency and amplitude of the generated wave and observed changes on both the oscilloscope and DMM and recorded our findings.
 
 ## Test Equipment:
@@ -50,10 +52,22 @@
 |---------------------------------|
 |          1.2 Ohms               |
 
+**Resistor Values:**
 
-| Resistor # | Band 1 | Band 2 | Band 3 | Band 4 | Expected Resistance (Ohms) | Tolerance | Max Expected Resistance (Ohms) | Min Expected Resistance (Ohms) | Measured Resistance (Ohms) |
-|------------|--------|--------|--------|--------|----------------------------|-----------|--------------------------------|--------------------------------|-----------------|----------|
-| 1 | yellow | purple | green | gold | 4700000 | 5% | 4935000 | 4465000 | 4720000 | 4719998.8 |
+| Resistor # | Band 1 | Band 2 | Band 3 | Band 4 | Expected Resistance (Ohms) | Tolerance | Max Value (Ohms) | Min Value (Ohms) | Measured Resistance (Ohms) | Measured Resistance - Resistance of Cables (Ohms) |
+|------------|--------|--------|--------|--------|--------------------------|-----------|----------------|----------------|----------------------|---------------------------------|
+| 1          | Yellow | Purple | Green  | Gold   | 4700000                  | 5%        | 4935000        | 4465000        | 4720000              | 4719998.8                         |
+| 2          | Brown  | Green  | Black  | Gold   | 15                        | 5%        | 15.75          | 14.25          | 15.7                  | 14.5                               |
+| 3          | Brown  | Gray   | Brown  | Gold   | 180                       | 5%        | 189            | 171            | 187                   | 185.8                              |
+| 4          | Gray   | Red    | Red    | Gold   | 8200                      | 5%        | 8610           | 7790           | 8230                  | 8228.8                             |
+
+**Capacitor Values:
+
+| Capacitor # | Capacitor Type | Expected Capacitance (F) | Tolerance | Max Expected Capacitance (F) | Min Expected Capacitance (F) | Measured Capacitance (F) |
+|-------------|----------------|--------------------------|-----------|------------------------------|-------------------------------|---------------------------|
+| 1           | Electrolytic   | 0.00047                  | 20%       | 0.000564                     | 0.000376                      | 0.00053                 |
+| 2           | Ceramic        | 0.000001                 | 5%        | 0.00000105                   |  0.00000095                  | 0.00000114               |
+
 
 ## Results:
 
