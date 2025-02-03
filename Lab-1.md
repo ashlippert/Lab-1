@@ -48,21 +48,27 @@
 ## Test Procedures:
 
 1. **Resistor Measurement**
-   - Measured resistance using the DMM and compared with expected values.
-   - Recorded results in a table.
+
+   For this part of the experiment, we measured the resistance of four different resistors using a Digital Multimeter (DMM) and compared the results to the expected values based on the resistor color codes. We recorded the expected resistance, the acceptable tolerance range, and the measured resistance in a table. To ensure accuracy, we also measured the resistance of the test leads and subtracted this value from our readings. Any resistors that fell outside the expected range were noted.
+
 
 2. **Capacitor Measurement**
-   - Measured capacitance using the DMM.
-   - Observed if polarity affected electrolytic capacitor readings.
+
+   We used the DMM to measure the capacitance of four capacitors and compared the results to their expected values. For the electrolytic capacitor, we also tested whether polarity affected the readings. The measured values were recorded, and any deviations from the expected capacitance were analyzed.
+
 
 3. **Power Supply Check**
-   - Set different voltage levels and measured them with the DMM.
-   - Compared results with expected values.
+
+   To verify the accuracy of the power supply, we set it to different voltage levels (1.5V, 7.0V, and 12.0V) and measured the output using the DMM. We then compared the DMM readings with the voltage displayed on the power supply. Additionally, we measured the auxiliary outputs (3.3V and 5.0V) to ensure they were within the expected range.
+
 
 4. **Function Generator Output**
-   - Measured output using different oscilloscope methods and the DMM.
-   - Compared values to Function Generator settings.
-   - Changed frequency and amplitude to observe oscilloscope and DMM responses.
+
+   We set the function generator to produce a 2kHz sine wave at maximum amplitude and measured the output using multiple methods. These included:
+      - Counting divisions on the oscilloscope screen
+      - Using the oscilloscope’s moveable cursors
+      - Utilizing the oscilloscope’s built-in measurement functions
+      - Measuring the signal with the DMM
 
 ## Test Results:
 | Resistance of DMM Cables (Ohms) |
