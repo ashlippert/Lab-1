@@ -52,13 +52,18 @@
    For this part of the experiment, we measured the resistance of four different resistors using a Digital Multimeter (DMM) and compared the results to the expected values based on the resistor color codes. We recorded the expected resistance, the acceptable tolerance range, and the measured resistance in a table. To ensure accuracy, we also measured the resistance of the test leads and subtracted this value from our readings. Any resistors that fell outside the expected range were noted.
 
 <div align="center">
-  <img src="IMG_1437.jpg" alt="Resistor Measurement" width="400">
+  <img src="IMG_1446.jpg" alt="Resistor Measurement" width="400">
   <p><b>Figure 1:</b> Measurement of resistor value using DMM.</p>
 </div>
 
 3. **Capacitor Measurement**
 
    We used the DMM to measure the capacitance of four capacitors and compared the results to their expected values. For the electrolytic capacitor, we also tested whether polarity affected the readings. The measured values were recorded, and any deviations from the expected capacitance were analyzed.
+
+<div align="center">
+  <img src="IMG_1437.jpg" alt="Resistor Measurement" width="400">
+  <p><b>Figure 1:</b> Measurement of resistor value using DMM.</p>
+</div>
 
 
 4. **Power Supply Check**
