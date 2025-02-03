@@ -65,8 +65,18 @@
 
 | Capacitor # | Capacitor Type | Expected Capacitance (F) | Tolerance | Max Expected Capacitance (F) | Min Expected Capacitance (F) | Measured Capacitance (F) |
 |-------------|----------------|--------------------------|-----------|------------------------------|-------------------------------|---------------------------|
-| 1           | Electrolytic   | 0.00047                  | 20%       | 0.000564                     | 0.000376                      | 0.00053                 |
-| 2           | Ceramic        | 0.000001                 | 5%        | 0.00000105                   |  0.00000095                  | 0.00000114               |
+| 1           | Electrolytic   | 0.00047                  | 20%       | 0.000564                        | 0.000376                     | 0.00053                  |
+| 2           | Ceramic        | 0.000001                 | 5%        | 0.00000105                      |  0.00000095                  | 0.00000114               |
+| 3           | Ceramic        | 2.2E-11                  | 5%        | 2.31E-11
+                | 2.09E-11                     | 3E-10                    |
+| 4           | Ceramic        | 0.000000001              | 10%       | 1.1E-09                         | 9E-10                        | 1.34E-09                 |
+
+**Polarity of Electrolytic Capacitor:**
+| Polarity |
+|----------|
+| 528      |
+
+
 
 
 ## Results:
