@@ -50,20 +50,22 @@
 1. **Resistor Measurement**
 
    For this part of the experiment, we measured the resistance of four different resistors using a Digital Multimeter (DMM) and compared the results to the expected values based on the resistor color codes. We recorded the expected resistance, the acceptable tolerance range, and the measured resistance in a table. To ensure accuracy, we also measured the resistance of the test leads and subtracted this value from our readings. Any resistors that fell outside the expected range were noted.
+
+
 <img src="![IMG_1437](https://github.com/user-attachments/assets/14a02650-b23a-46f5-90bf-e40ff7ab7fa6)" alt="Resistor Measurement" width="400">
 
 
-2. **Capacitor Measurement**
+3. **Capacitor Measurement**
 
    We used the DMM to measure the capacitance of four capacitors and compared the results to their expected values. For the electrolytic capacitor, we also tested whether polarity affected the readings. The measured values were recorded, and any deviations from the expected capacitance were analyzed.
 
 
-3. **Power Supply Check**
+4. **Power Supply Check**
 
    To verify the accuracy of the power supply, we set it to different voltage levels (1.5V, 7.0V, and 12.0V) and measured the output using the DMM. We then compared the DMM readings with the voltage displayed on the power supply. Additionally, we measured the auxiliary outputs (3.3V and 5.0V) to ensure they were within the expected range.
 
 
-4. **Function Generator Output**
+5. **Function Generator Output**
 
    We set the function generator to produce a 2kHz sine wave at maximum amplitude and measured the output using multiple methods. These included:
       - Counting squares on the oscilloscope screen
