@@ -47,6 +47,23 @@
    
 ## Test Procedures:
 
+1. **Resistor Measurement**
+   - Measured resistance using the DMM and compared with expected values.
+   - Recorded results in a table.
+
+2. **Capacitor Measurement**
+   - Measured capacitance using the DMM.
+   - Observed if polarity affected electrolytic capacitor readings.
+
+3. **Power Supply Check**
+   - Set different voltage levels and measured them with the DMM.
+   - Compared results with expected values.
+
+4. **Function Generator Output**
+   - Measured output using different oscilloscope methods and the DMM.
+   - Compared values to Function Generator settings.
+   - Changed frequency and amplitude to observe oscilloscope and DMM responses.
+
 ## Test Results:
 | Resistance of DMM Cables (Ohms) |
 |---------------------------------|
