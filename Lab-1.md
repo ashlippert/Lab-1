@@ -52,7 +52,7 @@
    For this part of the experiment, we measured the resistance of four different resistors using a Digital Multimeter (DMM) and compared the results to the expected values based on the resistor color codes. We recorded the expected resistance, the acceptable tolerance range, and the measured resistance in a table. To ensure accuracy, we also measured the resistance of the test leads and subtracted this value from our readings. Any resistors that fell outside the expected range were noted.
 
 <div align="center">
-  <img src="IMG_1446.jpg" alt="Resistor Measurement" width="400">
+  <img src="IMG_1443.jpg" alt="Resistor Measurement" width="400">
   <p><b>Figure 1:</b> Measurement of resistor value using DMM.</p>
 </div>
 
@@ -61,14 +61,23 @@
    We used the DMM to measure the capacitance of four capacitors and compared the results to their expected values. For the electrolytic capacitor, we also tested whether polarity affected the readings. The measured values were recorded, and any deviations from the expected capacitance were analyzed.
 
 <div align="center">
-  <img src="IMG_1437.jpg" alt="Resistor Measurement" width="400">
-  <p><b>Figure 1:</b> Measurement of resistor value using DMM.</p>
+  <img src="IMG_1437.jpg" alt="Capacitor Measurement" width="400">
+  <p><b>Figure 1:</b> Measurement of ceramic capacitor value using DMM.</p>
 </div>
 
+<div align="center">
+  <img src="IMG_1441.jpg" alt="Resistor Measurement" width="400">
+  <p><b>Figure 2:</b> Measurement of electrolytic resistor value using DMM.</p>
+</div>
 
 4. **Power Supply Check**
 
    To verify the accuracy of the power supply, we set it to different voltage levels (1.5V, 7.0V, and 12.0V) and measured the output using the DMM. We then compared the DMM readings with the voltage displayed on the power supply. Additionally, we measured the auxiliary outputs (3.3V and 5.0V) to ensure they were within the expected range.
+
+<div align="center">
+  <img src="IMG_1444.jpg" alt="Power Supply Measurement" width="400">
+  <p><b>Figure 3:</b> Measurement of DCPS voltage auxillary outputs.</p>
+</div>
 
 
 5. **Function Generator Output**
@@ -78,6 +87,16 @@
       - Using the oscilloscope’s moveable cursors
       - Utilizing the oscilloscope’s built-in measurement functions
       - Measuring the signal with the DMM
+  
+<div align="center">
+  <img src="IMG_1445.jpg" alt="Function Generator" width="400">
+  <p><b>Figure 4:</b> Setup for 2 kHz sine wave generation on function generator.</p>
+</div>
+
+<div align="center">
+  <img src="IMG_1446.jpg" alt="Oscilloscope Output" width="400">
+  <p><b>Figure 5:</b> Sine wave output generated on oscilloscope from generated function.</p>
+</div>
 
 ## Test Results:
 | Resistance of DMM Cables (Ohms) |
