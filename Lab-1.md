@@ -5,8 +5,8 @@
 ## Date: February 2nd, 2025
 
 ## Introduction:
-This lab introduces basic electronic test equipment, including a Digital Multimeter (DMM), an oscilloscope (O-scope), a Function Generator (F.G.), and a Direct Current Power Supply (DCPS). The goal was to understand how each tool works, practice obtaining accurate measurements, and obtain hands-on practice. During the lab, different electronic signals were created and measured using the equipment.
-Additionally, this lab provided instruction on how to use GitHub to write lab reports and the basics for navigating the GitHub interface.
+   This lab introduces basic electronic test equipment, including a Digital Multimeter (DMM), an oscilloscope (O-scope), a Function Generator (F.G.), and a Direct Current Power Supply (DCPS). The goal was to understand how each tool works, practice obtaining accurate measurements, and obtain hands-on practice. During the lab, different electronic signals were created and measured using the equipment.
+   Additionally, this lab provided instruction on how to use GitHub to write lab reports and the basics for navigating and understanding the GitHub interface.
 
 ## Materials:
 1. Four different resistors (any value)
@@ -29,15 +29,12 @@ Additionally, this lab provided instruction on how to use GitHub to write lab re
    Using the DMM, we measured each voltage output and compared the readings with the DCPS display. Additionally, we measured the fixed 3.3V, 5.0V, and 12V outputs to verify their accuracy.
 
 7. **Function Generator and Oscilloscope Setup:**
-   - Connected a 10KΩ resistor to the output of the Function Generator (FG).
-   - Set the FG to produce a 2kHz sine wave at maximum amplitude.
-   - Used an oscilloscope to observe the waveform.
-   - Measured amplitude and frequency using four different methods:
+   We began by connecting a 10KΩ resistor to the output of the Function Generator (FG), then set the FG to produce a 2kHz sine wave at maximum amplitude. Using the oscilloscope, we observed the waveform and measured amplitude and frequency using four different methods:
      1. Counting squares on the oscilloscope screen.
      2. Using the moveable cursors on the oscilloscope.
      3. Using the measurement features of the oscilloscope.
      4. Measuring with the Fluke DMM.
-   - Adjusted frequency and amplitude of the generated wave and observed changes on both the oscilloscope and DMM.
+   Additionally, we adjusted frequency and amplitude of the generated wave and observed changes on both the oscilloscope and DMM and recorded our findings.
 
 ## Test Equipment:
 1. Fluke 87 V DMM
@@ -49,7 +46,14 @@ Additionally, this lab provided instruction on how to use GitHub to write lab re
 ## Test Procedures:
 
 ## Test Results:
+| Resistance of DMM Cables (Ohms) |
+|---------------------------------|
+|          1.2 Ohms               |
 
+
+| Resistor # | Band 1 | Band 2 | Band 3 | Band 4 | Expected Resistance (Ohms) | Tolerance | Max Expected Resistance (Ohms) | Min Expected Resistance (Ohms) | Measured Resistance (Ohms) |
+|------------|--------|--------|--------|--------|----------------------------|-----------|--------------------------------|--------------------------------|-----------------|----------|
+| 1 | yellow | purple | green | gold | 4700000 | 5% | 4935000 | 4465000 | 4720000 | 4719998.8 |
 
 ## Results:
 
