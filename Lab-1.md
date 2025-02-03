@@ -50,6 +50,7 @@
 1. **Resistor Measurement**
 
    For this part of the experiment, we measured the resistance of four different resistors using a Digital Multimeter (DMM) and compared the results to the expected values based on the resistor color codes. We recorded the expected resistance, the acceptable tolerance range, and the measured resistance in a table. To ensure accuracy, we also measured the resistance of the test leads and subtracted this value from our readings. Any resistors that fell outside the expected range were noted.
+<img src="![IMG_1437](https://github.com/user-attachments/assets/14a02650-b23a-46f5-90bf-e40ff7ab7fa6)" alt="Resistor Measurement" width="400">
 
 
 2. **Capacitor Measurement**
@@ -114,12 +115,10 @@
 | Measurement Feature | Sinusoidal  | 2.202           | 20.20         |
 | DMM                 | Sinusoidal  | 2.2             | 7.16          |
 
-
-
-## Results:
-
-
 ## Discussion:
 
 
+
 ## Conclusion:
+
+
