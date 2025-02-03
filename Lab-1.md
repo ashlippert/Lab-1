@@ -171,6 +171,15 @@ circuit values**
 
 ## Discussion:
 
+Discussion Question 1: Do the instruments measuring resistance agree with each other? Why?
+
+The data from the voltage measurements shows that the readings from the Digital Multimeter (DMM) and the power supply are very close to each other. For example, when the power supply was set to 1.5V, the DMM measured 1.499V, and when set to 7.0V, the DMM also read exactly 7.0V. These small differences are expected due to slight variations in instrument calibration and measurement precision. Since the differences are minimal and within an acceptable range, we can conclude that the instruments agree with each other
+
+
+Discussion Question 2: Do the instruments measuring peak voltage of the 2kHz sine wave agree with each other? Why?
+
+The function generator was set to produce a 2kHz sine wave at maximum amplitude, and the signal was measured using different methods. While minor variations between readings were expected, the measurements were consistent overall. The oscilloscope readings depended on settings such as scale and resolution, while the DMM measured RMS voltage instead of peak values, which could explain discrepancies. Since all measurements remained within a reasonable range, we can conclude that the instruments agree with each other.
+
    The results demonstrate a good agreement between expected and measured values, with minor discrepancies which could be caused by measurement tolerances or equipment age and calibration. The capacitor measurements exhibited more variation, especially with smaller capacitance values, which is expected due to the DMM’s limitations in measuring low-capacitance components accurately.
 Additionally, variations in the function generator’s output readings suggest that different measurement techniques introduce slight uncertainties.
 
